@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+import Header from "./Header";
 
 function Shop() {
-    return (
-        <div>
-            <Link to="/">Home</Link>
-            <Link to="/cart">Cart</Link>
-        </div>
+  return (
+    <div>
+      <Header />
+      <p>This is Shop.</p>
+    </div>
     )
 }
 
