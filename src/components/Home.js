@@ -17,7 +17,7 @@ function Home() {
           </div>
       </section>
       <div className="btn-shop">
-        <button type="button"><Link to="/shop">Go to Shop</Link></button>
+        <Link to="/shopping-cart/shop"><button type="button">Go to Shop</button></Link>
       </div>
     </div>
     )
