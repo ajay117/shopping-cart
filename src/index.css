@@ -77,3 +77,12 @@ code {
   text-decoration: none;
   color: black;
 }
+.products {
+  display: flex;
+}
+.products div {
+  margin-left: 15px;
+}
+.products img {
+  width: 200px;
+}
