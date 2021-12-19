@@ -10,9 +10,10 @@ function Categories() {
         setCategories([]);
       }
     }, []);
+    let addCategories2Dom = categories.map((item,index) => <p key={index} className="box thick-border">{item.toUpperCase()}</p>)
     return (
         <div className="categories">
-          {categories.map((item,index) => <p key={index} className="box thick-border">{item.toUpperCase()}</p>)}
+          {addCategories2Dom}
         </div>
     )
 }
