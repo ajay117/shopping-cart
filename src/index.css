@@ -21,6 +21,7 @@ code {
 }
 .nav {
   background-color: #00FFC5;
+  margin-bottom: 30px;
 }
 .nav ul {
   list-style-type: none;
@@ -72,17 +73,69 @@ code {
   width: 600px;
   border-radius: 30px;
   font-size: 20px;
+  width: 75%;
 }
 .btn-shop a {
   text-decoration: none;
   color: black;
 }
-.products {
+.product {
   display: flex;
 }
-.products div {
+/* .product div {
   margin-left: 15px;
-}
-.products img {
+} */
+.product img {
   width: 200px;
+}
+.box {
+  border: 1px solid black;
+  width: 200px;
+  text-align: center;
+  padding: 20px 0;
+}
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 30px 20px;
+}
+.mh-20 {
+  margin: 0 20px;
+}
+.thick-border {
+  border: 3px solid;
+}
+.medium-border {
+  border: 2px solid black;
+}
+.img-responsive {
+  width: 100px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.product {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 20px 20px;
+}
+.product-img {
+  margin-right: 20px;
+}
+.product-description {
+  width: 70%;
+}
+.price {
+  font-weight: 600;
+}
+/* .product-btn {
+  text-align: center;
+} */
+.product-btn button {
+  padding: 10px 0;
+  width: 120px;
+  font-weight: 600;
 }
