@@ -10,9 +10,9 @@ function Header() {
             <li>BrandName</li>
           </div>
           <div className="nav-links">
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/shop">Shop</Link></li>
-            <li><Link to="/cart">Cart</Link></li>
+            <li><Link to="/shopping-cart">Home</Link></li>
+            <li><Link to="/shopping-cart/shop">Shop</Link></li>
+            <li><Link to="/shopping-cart/cart">Cart</Link></li>
           </div>
         </ul>
       </nav>
