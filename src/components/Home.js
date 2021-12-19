@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="container">
       <Header />
-      <section className="container-flex">
+      <section className="container-flex mh-20">
           <div className="intro">
             <div className="intro-para">
               <h3 className="text-large">FakeStore</h3>
